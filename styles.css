@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 350;
+    font-display: swap;
+
+
+}
+
+.main {
+    padding: 10px;
+    max-width: 100%;
+
+    background-color: #1c1c1c;
+    background-image: linear-gradient(45deg, #1c1c1c 0%, #000000 100%);
+}
+
+.title {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-img {
+    width: 300px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 400px;
+}
+
+.menu-text {
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+}
+
+.menu-input {
+    padding: 10px;
+    font-size: 400;
+    color: black;
+
+}
+
+
+.menu-contenedor {
+    display: none;
+    padding: 70px 140px;
+    background-color: #2b2b2b;
+    border-radius: 2em;
+}
+
+.menu-btn {
+    padding: 8px 15px;
+    border-radius: 1em;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #d22021;
+    background-image: linear-gradient(62deg, #d22021 0%, #870f12 100%);
+    color: white;
+}
+
+.error {
+    color: red;
+    margin-bottom: 20px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    flex-direction: column;
+}
+
+.pizza-name {
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+.pizza-price {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
